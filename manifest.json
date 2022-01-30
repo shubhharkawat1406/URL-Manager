@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "description": "Manage and Save URLs easily.",
+    "version": "1.0",
+    "name": "URL Manager",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions":[
+        "tabs"
+    ],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+M"
+            }
+        }
+    }
+}
